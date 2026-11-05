@@ -1,0 +1,42 @@
+{
+  "sample_id": "sample_020_lognormal_pf15",
+  "volume_config": {
+    "shape": [
+      48,
+      48,
+      48
+    ],
+    "target_packing_fraction": 0.15,
+    "max_placement_attempts": 30000,
+    "seed": 1020,
+    "min_clearance": 0.4,
+    "particle_intensity": 0.85,
+    "background_intensity": 0.15,
+    "gaussian_blur_sigma": 0.8,
+    "noise_gaussian_std": 0.04,
+    "noise_poisson_enabled": false
+  },
+  "psd_config": {
+    "min_radius": 2.0,
+    "max_radius": 6.5,
+    "num_bins": 20,
+    "distribution_type": "lognormal",
+    "lognormal_mu": 1.2,
+    "lognormal_sigma": 0.32,
+    "bimodal_modes": [
+      3.0,
+      6.0
+    ],
+    "bimodal_sigmas": [
+      0.5,
+      0.7
+    ],
+    "bimodal_weights": [
+      0.5,
+      0.5
+    ]
+  },
+  "achieved_packing_fraction": 0.15238457055214713,
+  "target_reached": true,
+  "num_particles": 110
+}
